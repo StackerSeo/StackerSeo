@@ -7,8 +7,6 @@ Experienced in:
 - Event-driven control logic
 - Sensor fusion systems using camera and LiDAR
 
-Focused on building reliable embedded systems through structured architecture and validation.
-
 ---
 
 ## Technical Stack
