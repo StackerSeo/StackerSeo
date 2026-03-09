@@ -1,8 +1,7 @@
 # Seo Dongyun
 
-Embedded Systems Engineer interested in low-level software and real-time system design.  
+Embedded Systems Engineer interested in low-level embedded software and real-time system design.  
 
-Interested in low-level embedded software and real-time system design.
 Experienced in:
 - MCU register-level programming
 - Event-driven control logic
