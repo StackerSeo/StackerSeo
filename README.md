@@ -48,6 +48,9 @@ Focused on building reliable embedded systems through structured architecture an
 
 ## Projects
 
+Focused on low-level firmware development, real-time control systems, 
+and hardware-level MCU programming.
+
 ### Timer-Based Elevator Control System
 
 An embedded control system that simulates elevator operation 
@@ -65,9 +68,40 @@ using timer-driven state transitions and interrupt handling.
 - Timer (GPT / AGT)
 - GPIO / Interrupt
 
-### FSM-based Lane Change System  
-Implemented an autonomous lane change and return algorithm using a Finite State Machine (FSM).  
-The system detects lanes and obstacles, and performs safe lane changes using an FSM-based decision algorithm.
+### UART-Based Motor Control System
+
+A microcontroller-based motor control system using UART communication 
+between a PC GUI and an embedded MCU. The system processes commands 
+and controls motor speed using PWM signals.
+
+**Key Features**
+- UART communication for PC–MCU command interface
+- PWM-based motor speed control
+- Interrupt-driven command handling
+- Real-time system response validation
+
+**Tech Stack**
+- C / ARM Cortex-M4
+- Renesas RA6M3
+- UART / PWM / Interrupt
+- Renesas e² studio
+
+### Camera–LiDAR Sensor Fusion for Autonomous Driving
+
+A perception and control system integrating camera and LiDAR data 
+to enable autonomous driving in a simulated two-lane track environment.
+
+**Key Features**
+- Camera-based lane detection
+- LiDAR-based obstacle distance estimation
+- Sensor fusion for driving decision
+- Perception–Decision–Control architecture
+
+**Tech Stack**
+- Python / C++
+- ROS
+- OpenCV
+- LiDAR
 
 ---
 
